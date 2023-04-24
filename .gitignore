@@ -1,0 +1,5 @@
+# Remove mac system file
+.DS_Store
+
+# Personal project planner
+*.txt
