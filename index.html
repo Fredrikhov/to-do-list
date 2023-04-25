@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resources/css/style.css"/>
+        <link rel="stylesheet" href="resources/css/reset.css"/>
+        <link rel="stylesheet" href="resources/css/mobile.css"/>
+        <script type="module" src="index.js" defer></script>
+        <title>To-Do List App</title>
+    </head>
+    <body>
+        <header>
+            <nav id="main-navbar">
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form>
+                    <label for="title"></label>
+                    <input type="text" id="title" placeholder="Title.." name="title" required/>
+                    <label for="to-do"></label>
+                    <input type="text id="to-do" placeholder="Other information.." name=" to-do" required/>
+                    <button id="button" value="submit" >Add Item</button>
+                </form>
+                <h1>Items Added To Do</h1>
+                <div id=" items-to-do">
+                    <p>Items-to-do</p>
+                </div>
+                <div id="items-finished">
+                    <p>items-Finished</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

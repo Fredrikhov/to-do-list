@@ -3,3 +3,6 @@
 
 # Personal project planner
 *.txt
+
+# node_modules
+**/node_modules
